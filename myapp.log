@@ -1,0 +1,27 @@
+2021-06-24 19:58:00,629 ERROR __main__ Unknown product
+2021-06-24 19:58:30,935 ERROR __main__ Unknown product
+2021-06-24 19:58:40,406 ERROR __main__ Unknown product
+2021-06-24 22:06:00,445 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-24 22:06:00,445 INFO twilio.http_client PAYLOAD: {'To': '+992501878849', 'From': '+16105699914', 'Body': 'Salom alekum'}
+2021-06-24 22:06:00,447 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-24 22:06:02,000 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 201 815
+2021-06-24 22:06:02,000 INFO twilio.http_client POST Response: 201 {"sid": "SM4778d4cacf234a94973688a843904abc", "date_created": "Thu, 24 Jun 2021 17:06:00 +0000", "date_updated": "Thu, 24 Jun 2021 17:06:00 +0000", "date_sent": null, "account_sid": "AC413c8c702a2ccd07c149ec21fc8312de", "to": "+992501878849", "from": "+16105699914", "messaging_service_sid": null, "body": "Sent from your Twilio trial account - Salom alekum", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages/SM4778d4cacf234a94973688a843904abc.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages/SM4778d4cacf234a94973688a843904abc/Media.json"}}
+2021-06-24 22:41:13,941 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:43:07,735 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:44:07,789 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:44:44,937 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:46:12,870 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:46:15,359 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:46:57,817 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:46:59,515 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:51:07,181 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:51:38,736 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:52:14,834 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:52:55,845 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:53:19,950 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:55:44,249 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:55:51,035 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:55:58,674 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:56:07,806 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 22:56:55,017 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-24 23:16:51,883 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
