@@ -25,3 +25,103 @@
 2021-06-24 22:56:07,806 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
 2021-06-24 22:56:55,017 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
 2021-06-24 23:16:51,883 ERROR notification Ошибка при отправке уведомление по EMAIL на почту test@tj.tj
+2021-06-25 09:16:18,137 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:16:18,137 INFO twilio.http_client PAYLOAD: {'To': '992123456789', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:16:18,138 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:16:19,477 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:16:19,479 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:17:09,001 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:17:09,002 INFO twilio.http_client PAYLOAD: {'To': '+992123456789', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:17:09,003 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:17:09,801 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:17:09,802 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:18:22,791 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:18:22,791 INFO twilio.http_client PAYLOAD: {'To': '+992123456789', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:18:22,792 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:18:24,086 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:18:24,087 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:19:43,767 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:19:43,768 INFO twilio.http_client PAYLOAD: {'To': '+992501878849', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:19:43,769 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:19:45,134 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:19:45,136 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:20:10,962 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:20:10,962 INFO twilio.http_client PAYLOAD: {'To': '+992501878849', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:20:10,963 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:20:11,767 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:20:11,767 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:20:13,481 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:20:13,481 INFO twilio.http_client PAYLOAD: {'To': '+992501878849', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:20:13,482 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:20:14,294 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:20:14,295 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:20:40,202 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:20:40,202 INFO twilio.http_client PAYLOAD: {'To': '+992501878849', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:20:40,203 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:20:40,986 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:20:40,986 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:22:35,370 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:22:35,371 INFO twilio.http_client PAYLOAD: {'To': '+992501878849', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:22:35,372 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:22:36,665 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:22:36,666 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:24:24,554 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:24:24,555 INFO twilio.http_client PAYLOAD: {'To': 992501878849, 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:24:24,556 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:24:25,823 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:24:25,824 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:25:03,315 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:25:03,316 INFO twilio.http_client PAYLOAD: {'To': '+992501878849', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:25:03,317 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:25:04,127 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:25:04,128 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:27:36,513 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:27:36,513 INFO twilio.http_client PAYLOAD: {'To': '+992501878849', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:27:36,514 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:27:37,776 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:27:37,777 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:27:52,953 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:27:52,953 INFO twilio.http_client PAYLOAD: {'To': '+992501878849', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:27:52,955 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:27:53,760 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:27:53,761 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:29:00,713 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:29:00,714 INFO twilio.http_client PAYLOAD: {'To': '+992501878849', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:29:00,716 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:29:02,067 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:29:02,070 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:29:30,751 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:29:30,752 INFO twilio.http_client PAYLOAD: {'To': '+992123456789', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:29:30,753 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:29:31,571 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:29:31,574 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:38:12,357 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:38:12,358 INFO twilio.http_client PAYLOAD: {'To': '+992123456789', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:38:12,359 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:38:13,723 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:38:13,726 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:39:06,575 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:39:06,575 INFO twilio.http_client PAYLOAD: {'To': '+992123456789', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:39:06,577 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:39:07,356 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:39:07,358 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:42:27,835 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:42:27,835 INFO twilio.http_client PAYLOAD: {'To': '+992123456789', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:42:27,836 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:42:29,204 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:42:29,205 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:42:52,815 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:42:52,816 INFO twilio.http_client PAYLOAD: {'To': '+992123456789', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:42:52,817 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:42:53,602 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 401 128
+2021-06-25 09:42:53,605 INFO twilio.http_client POST Response: 401 {"code": 20003, "detail": "", "message": "Authenticate", "more_info": "https://www.twilio.com/docs/errors/20003", "status": 401}
+2021-06-25 09:44:57,182 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:44:57,182 INFO twilio.http_client PAYLOAD: {'To': '+992123456789', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:44:57,183 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:44:58,529 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 400 160
+2021-06-25 09:44:58,531 INFO twilio.http_client POST Response: 400 {"code": 21211, "message": "The 'To' number +992123456789 is not a valid phone number.", "more_info": "https://www.twilio.com/docs/errors/21211", "status": 400}
+2021-06-25 09:46:02,889 INFO twilio.http_client POST Request: https://api.twilio.com/2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json
+2021-06-25 09:46:02,889 INFO twilio.http_client PAYLOAD: {'To': '+992123456789', 'From': '+16105699914', 'Body': '\n Спасибо за пакупку!!!\n Номер вашего покупки: 1\n Продукт: Laptop\n Стоимость: 200'}
+2021-06-25 09:46:02,890 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): api.twilio.com:443
+2021-06-25 09:46:04,223 DEBUG urllib3.connectionpool https://api.twilio.com:443 "POST /2010-04-01/Accounts/AC413c8c702a2ccd07c149ec21fc8312de/Messages.json HTTP/1.1" 400 160
+2021-06-25 09:46:04,225 INFO twilio.http_client POST Response: 400 {"code": 21211, "message": "The 'To' number +992123456789 is not a valid phone number.", "more_info": "https://www.twilio.com/docs/errors/21211", "status": 400}

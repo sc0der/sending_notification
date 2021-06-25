@@ -11,7 +11,7 @@ purchases = [
 ]
 
 customers = [
-   Customer(uid=1, phone="992123456789", email="test@tj.tj")
+   Customer(uid=1, phone="+992123456789", email="test@tj.tj")
 ]
 
 
@@ -55,10 +55,10 @@ class SendNotification(object):
     def send_nofication(self, flag):
         if self.__validation:
             if flag.lower() == "sms":
-                print(self._customer.u_id)
                 str = '\n Спасибо за пакупку!!!\n Номер вашего покупки: {0}\n Продукт: {1}\n Стоимость: {2}'.format(self._purchase.id, self._purchase.product, self._purchase.total_price)
                 send_sms = Sms(str, self._customer.phone)
-                if send_sms=="SUCCESS":
+                print(send_sms.send_sms)
+                if send_sms.send_sms=="SUCCESS":
                     success_text = '\n Успех,\n Вы отправили уведомление с помощью  SMS \n Номер заказа: {0}\n ID Клиента: {1}\n Номер телефона: {2}\n email-адресс: {3}'.format(self._purchase.id, self._customer.u_id, self._customer.phone, self._customer.email)
                     print(success_text)
                     return success_text
