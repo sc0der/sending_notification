@@ -66,6 +66,13 @@ class SendNotification(object):
                     success_text = '\n Успех,\n Вы отправили уведомление с помощью  SMS \n Номер заказа: {0}\n ID Клиента: {1}\n Номер телефона: {2}\n email-адресс: {3}'.format(self._purchase.id, self._customer.u_id, self._customer.phone, self._customer.email)
                     logger.debug(success_text)
                     return success_text
+                elif send_sms.send_sms=="FAIL":
+                    print("SMS не было отправлено")
+                    print("Проблема с SMS verification Service")
+                    print("------------------++++-------------")
+                    success_text = '\n Успех,\n Вы отправили уведомление с помощью  SMS \n Номер заказа: {0}\n ID Клиента: {1}\n Номер телефона: {2}\n email-адресс: {3}'.format(self._purchase.id, self._customer.u_id, self._customer.phone, self._customer.email)
+                    print("SUCCESS TEXT: \n"+success_text)
+                    print("------------------++++-------------")
                 else:
                     err_text = 'Ошибка при отправке уведомление по SMS на номер телефона {0}'.format(self._customer.phone)
                     logger.error(err_text)
