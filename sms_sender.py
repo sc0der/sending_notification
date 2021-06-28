@@ -16,7 +16,7 @@ class Sms(object):
                      from_='+16105699914',
                      to=self.phone
                  )
-        if MESSAGE.sid["status"] == "sent":
+        if MESSAGE.status == "queued":
             return "SUCCESS"
         else:
             return "FAIL"
